@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+.step {
+  background: #f4ff7a;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  padding: 0.5em;
+  font-size: 17px;
+  cursor: pointer;
+  border: 1px black solid;
+  border-radius: 10px;
+}
+
+.step-current {
+  background: #0fff7f;
+}
+
+.step-active {
+  background: #ff6e6e;
+}
